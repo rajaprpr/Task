@@ -35,6 +35,12 @@ public class LibGlobal {
 
 	}
 	
+	public void tearBrowser() {
+		driver.close();
+		
+	}
+	
+	
 	
 	
 }
